@@ -7,7 +7,7 @@
     </head>
     <body>
         <div class="dasboard_container">
-            //hidden search bar
+<!--             hidden search bar -->
             <div class="search-container" id="searchbar">
                 <form action="/action_page.php">
                     <input type="text" placeholder="Search ...." name="search">
@@ -15,7 +15,8 @@
                 </form>
                 
             </div>
-            <div class="navbar">//navigation bar
+            <div class="navbar">
+<!-- 		    navigation bar -->
                 <div class="logo">
                    <div><img src="midaslogo.png" alt="midas_logo"></div>
                    <div><p>Midas IIITD</p></div>
@@ -31,13 +32,15 @@
                 </div>
                 <div class="menu_container">
                     <ul>
-                        <li><i  onclick= "togglesearchbar(this)" class="fa fa-search" aria-hidden="true"></i></li>//button to toggle search bar 
+<!-- 			    button to toggle search bar -->
+                        <li><i  onclick= "togglesearchbar(this)" class="fa fa-search" aria-hidden="true"></i></li> 
                         <li><i class="fa fa-bars" aria-hidden="true"></i></li>
                     </ul>
                 </div>
             </div>
             <div class="Home_container">
-                <div class="image_animation">//image slide show animation
+<!-- 		    image slide show animation -->
+                <div class="image_animation">
                     <div class="slideshow-container" id="home">
                         <div class="mySlides fade">
                             
@@ -65,8 +68,10 @@
                     </div>
                 </div>
                 <div class="login_container">
-                    <div class="circle">//gradiant shape to hold below text and button
-                        <div class="text_container"> //button to redirect to login and registeration page
+                    <div class="circle">
+<!-- 			    gradiant shape to hold below text and button -->
+                        <div class="text_container">
+<!-- 				button to redirect to login and registeration page -->
                            <h1 style="font-size: 45px;">Web App<br> Task</h1>
                            <p><br>Lorem Ipsum is simply dummy text of the<br> printing and typesetting industry.</p>
                            <div style="margin-top: 30px;">
@@ -80,7 +85,7 @@
         </div> 
     
     <script type="text/javascript">
-	//script for using toggle button to search bar
+// 	script for using toggle button to search bar
         function togglesearchbar(y) {
           var x = document.getElementById("searchbar");
           if (x.style.display == "block") {
