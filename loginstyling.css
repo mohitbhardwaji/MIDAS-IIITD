@@ -3,6 +3,7 @@
     color:white;
    overflow:hidden;
 }
+/* page background  */
 .background{
     height: 100%;
   width:auto;
@@ -23,7 +24,7 @@
     margin-top:120px;
     
 }
-
+/* login form styleing */
 .container{
     height:300px;
     width:300px;
@@ -48,6 +49,7 @@
 .container form{
   line-height:40px;
 }
+/* form input  */
 .container form input{
     border:none;
     margin-top:20px;
@@ -67,7 +69,9 @@
     color:white;
     border:none;
     background-image: linear-gradient(#c27acf,#3a8ba3);
-}
+ }
+/*end of login form */
+/* registration form styleing */
 .reg{
      height:300px;
     width:300px;
@@ -87,7 +91,7 @@
 #register{
     display:none;
 }
-
+/*form input styling */
 .reg form input{
     border:none;
     border-radius: 10px;
@@ -125,3 +129,4 @@
 
 
 }
+/* end of the page and registration from */
