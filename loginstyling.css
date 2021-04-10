@@ -1,0 +1,127 @@
+.body{
+ 
+    color:white;
+   overflow:hidden;
+}
+.background{
+    height: 100%;
+  width:auto;
+    color:white;
+   background-color:#0b0b0b;
+   background-image: url("bubbleimg.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   
+   overflow:hidden;
+
+}
+
+.form-cont{
+    height:500px;
+    width:800px;
+    transform:translateX(50%);
+    margin-top:120px;
+    
+}
+
+.container{
+    height:300px;
+    width:300px;
+    
+    color:white;
+  
+     padding-left: 20%;
+
+}
+#conatin{
+    display:block;
+}
+.container h1{
+    padding-left: 35px;
+    
+    background: linear-gradient(#c27acf,#3a8ba3);
+    background-position: center;
+  background-size: cover;
+  -webkit-text-fill-color:transparent;
+  -webkit-background-clip:text;
+}
+.container form{
+  line-height:40px;
+}
+.container form input{
+    border:none;
+    margin-top:20px;
+    border-radius: 10px;
+    background-image: linear-gradient(#c27acf,#3a8ba3);
+}
+::placeholder{
+    color:white;
+}
+
+.container  button{
+    padding-left:20px;
+    padding-right:20px;
+    margin-left:40px ;
+    margin-top:20px;
+    border-radius:10px;
+    color:white;
+    border:none;
+    background-image: linear-gradient(#c27acf,#3a8ba3);
+}
+.reg{
+     height:300px;
+    width:300px;
+    color:white;
+    padding-left: 20%;
+    line-height:40px;
+}
+.reg h1{
+    
+    
+    background: linear-gradient(#c27acf,#3a8ba3);
+    background-position: center;
+  background-size: cover;
+  -webkit-text-fill-color:transparent;
+  -webkit-background-clip:text;
+}
+#register{
+    display:none;
+}
+
+.reg form input{
+    border:none;
+    border-radius: 10px;
+    margin-top:20px;
+    background-image: linear-gradient(#c27acf,#3a8ba3);
+    color:white;
+}
+.reg form button{
+    padding-left:15px;
+    padding-right:15px;
+    margin-left:40px ;
+    color:white;
+    margin-top:20px;
+    border-radius: 10px;
+    border:none;
+    background-image: linear-gradient(#c27acf,#3a8ba3);
+    
+   
+}
+
+.reg a{
+    border-radius: 10px;
+    border: 1px ;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    padding:2px 10px;
+    margin-left: 30px;
+    font-family: sans-serif;
+    padding-right: 10px;
+    background-color: #0b0b0b;
+    color:white;
+    font-size:13px;
+    text-decoration:none;
+    background-image: linear-gradient(#c27acf,#3a8ba3);
+
+
+}
