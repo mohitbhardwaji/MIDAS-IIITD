@@ -16,7 +16,7 @@
        background-image: radial-gradient(#533453 5%, #112967 15%, #051924 60%);
    }
 
-   
+   /*search bar styleing*/
 .search-container
 {
 	display:none;
@@ -56,7 +56,7 @@
 .show
 {display: block;}
 
-
+/*navigation bar*/ 
    .navbar{
        margin:0 0 0  15px;
        width: 95%;
@@ -170,7 +170,7 @@ margin-left: 120px;
   from {opacity: .4} 
   to {opacity: 1}
 }
-
+/*shape from circle to required and its gradiant backgrund*/
 .circle {
     margin-top: 40px;
     transform: translateX(-10%);
@@ -211,3 +211,4 @@ margin-left: 120px;
       border-radius: 50%;
     
   }
+/*end*/
